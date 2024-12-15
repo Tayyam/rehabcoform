@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
-  <!-- الكرة الأرضية -->
-  <circle cx="75" cy="75" r="50" fill="url(#gridPattern)" stroke="#2B3E89" stroke-width="2" />
-  
-  <!-- الشبكة داخل الكرة الأرضية -->
-  <defs>
-    <pattern id="gridPattern" width="10" height="10" patternUnits="userSpaceOnUse">
-      <rect width="10" height="10" fill="#C62F3C" />
-      <path d="M0,0 L10,10 M10,0 L0,10" stroke="#FFFFFF" stroke-width="1" />
-    </pattern>
-  </defs>
-  
-  <!-- السهم حول الكرة -->
-  <path d="M50 130 Q75 140 100 130 T150 75 T100 20 Q75 10 50 20 T0 75 Z" fill="none" stroke="#2B3E89" stroke-width="4" />
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 0L93.3 25v50L50 100L6.7 75V25L50 0z" fill="#C62F3C"/>
+  <path d="M50 20L76.6 35v30L50 80L23.4 65V35L50 20z" fill="#2B3E89"/>
 </svg>
